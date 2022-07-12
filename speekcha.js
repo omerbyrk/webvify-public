@@ -1,5 +1,5 @@
 
-function hideItemsRepeater(callback) {
+/*function hideItemsRepeater(callback) {
 
     setInterval(callback, 100);
 }
@@ -48,4 +48,4 @@ try {
         document.querySelector("a[href='/auth/login/performer']").parentElement.style.display = "none";
     });
 
-} catch { }
+} catch { }*/
