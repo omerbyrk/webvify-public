@@ -1,5 +1,5 @@
 
-/*function hideItemsRepeater(callback) {
+function hideItemsRepeater(callback) {
 
     setInterval(callback, 100);
 }
@@ -10,7 +10,7 @@ try {
     });
 } catch { }
 
-try {
+/*try {
     hideItemsRepeater(() => document.getElementsByClassName("btn-tokens")[0].style.display = "none");
 } catch { }
 try {
