@@ -1,4 +1,1 @@
-
-document.addEventListener("DOMContentLoaded", function(event) { 
-  alert("Hello world");
-});
+alert("Hello world");
