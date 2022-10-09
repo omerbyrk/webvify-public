@@ -1,0 +1,6 @@
+.hide-in-app,
+.footer-wrap {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
