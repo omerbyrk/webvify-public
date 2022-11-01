@@ -5,7 +5,6 @@ deleteMyButton.onclick = (e) => {
     e.preventDefault();
     confirm("Do you want to delete the account with all the stored data? It will be deleted if you confirm this dialog. ")
 };
-if (parentElement.lastChild.innerText !== deleteMyButton.innerText) {
+if (parentElement.lastChild.innerText.toUpperCase() !== deleteMyButton.innerText.toLocaleUpperCase()) {
     parentElement.appendChild(deleteMyButton);
 }
-
