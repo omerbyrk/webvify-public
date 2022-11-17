@@ -3,8 +3,14 @@
 .navbar-toggle,
 #slide-nav,
 .breadcrumbs-design2,
-.woocommerce-products-header {
+.woocommerce-products-header,
+#amp-mobile-version-switcher {
     display: none !important;
     width: 0px !important;
     height: 0px !important;
+}
+
+button {
+    background-color: #FFFFFF !important;
+    color: black !important;
 }
