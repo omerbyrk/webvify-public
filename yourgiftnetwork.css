@@ -1,0 +1,8 @@
+.hide-in-app,
+.offcanvas-sidebar li:nth-child(8),
+ul>li.dropdown.show>div>a:nth-child(1),
+.footer {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
