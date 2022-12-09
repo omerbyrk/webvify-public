@@ -1,7 +1,10 @@
 .hide-in-app,
 .offcanvas-sidebar li:nth-child(8),
 ul>li.dropdown.show>div>a:nth-child(1),
-.footer {
+.footer,
+.mini-footer,
+.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-left.cc-color-override-1420035967,
+a[href="https://yourgiftnetwork.com/funding"] {
     display: none !important;
     width: 0px !important;
     height: 0px !important;
