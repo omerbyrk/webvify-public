@@ -1,3 +1,5 @@
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+
 var parentElement = document.querySelector(".woocommerce-MyAccount-navigation ul");
 var deleteMyButton = document.createElement("button");
 deleteMyButton.innerText = "Delete My Account";
