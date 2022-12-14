@@ -6,7 +6,7 @@
     height: 0px !important;
 }
 
-#dialogbox_overlay_postcodes {
+body #dialogbox_overlay_postcodes {
     display: block !important;
     width: 100% !important;
     height: 100% !important;
