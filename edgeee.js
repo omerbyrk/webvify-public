@@ -1,5 +1,3 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
-
 setInterval(() => {
     var parentElement = document.querySelector("nav[aria-label='Profile options']");
     var deleteMyButton = document.createElement("button");
