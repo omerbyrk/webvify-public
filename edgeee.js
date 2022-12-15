@@ -1,4 +1,4 @@
-setInterval(() => {
+function addDeleteMyAccountButton() {
     var parentElement = document.querySelector("nav[aria-label='Profile options']");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
@@ -15,4 +15,7 @@ setInterval(() => {
     if (parentElement.lastChild.innerText !== deleteMyButton.innerText) {
         parentElement.appendChild(deleteMyButton);
     }
-}, 1000);
+}
+
+setInterval(addDeleteMyAccountButton, 200);
+addDeleteMyAccountButton();
