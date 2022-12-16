@@ -4,19 +4,19 @@ var loginForm = document.getElementsByName("member_login")[0]; // enter login fo
 var loginButton = document.getElementById("member_login-element-12"); // enter login form button to copy
 
 function injectBootstrap() {
-    var link = document.createElement("link");
-    link.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
-    link.type = "text/css";
-    link.rel = "stylesheet";
-    link.integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3";
-    link.crossOrigin = "anonymous";
-    document.getElementsByTagName("head")[0].appendChild(link);
+  var link = document.createElement("link");
+  link.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3";
+  link.crossOrigin = "anonymous";
+  document.getElementsByTagName("head")[0].appendChild(link);
 
-    var script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
-    script.integrity = "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p";
-    script.crossOrigin = "anonymous";
-    document.getElementsByTagName("head")[0].appendChild(script);
+  var script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
+  script.integrity = "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p";
+  script.crossOrigin = "anonymous";
+  document.getElementsByTagName("head")[0].appendChild(script);
 }
 
 injectBootstrap();
@@ -31,7 +31,10 @@ registerButton.classList.add("my-3");
 registerButton.setAttribute("type", "button");
 registerButton.setAttribute("data-bs-toggle", "modal");
 registerButton.setAttribute("data-bs-target", "#registerModal");
-loginForm.append(registerButton);
+
+if (document.querySelector("#register_button") === null) {
+  loginForm.append(registerButton);
+}
 
 // create register popup
 var body = document.getElementsByTagName("body")[0];
@@ -39,7 +42,7 @@ var rPopupBody = document.createElement("div");
 rPopupBody.id = "rPopupBody";
 rPopupBody.style.zIndex = "9999";
 rPopupBody.innerHTML =
-    `
+  `
 <div class="modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
@@ -69,6 +72,7 @@ rPopupBody.innerHTML =
 </div>
 </div>
 </div>`
-    ;
-
-body.append(rPopupBody);
+  ;
+if (document.querySelector("#rPopupBody") === null) {
+  body.append(rPopupBody);
+}
