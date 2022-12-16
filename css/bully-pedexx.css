@@ -1,7 +1,8 @@
 /* https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/css/bully-pedex.css*/
 .footer,
 a[href="/join"],
-a[href="/account/billing"] {
+a[href="/account/billing"],
+a[href="/account/changelisting"] {
     display: none !important;
     width: 0px !important;
     height: 0px !important;
