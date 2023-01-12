@@ -1,0 +1,10 @@
+div#content {
+    z-index: 99;
+}
+
+header,
+footer {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
