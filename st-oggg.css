@@ -1,5 +1,13 @@
-header,
+/*header,
 footer {
     display: none !important;
     z-index: -5;
+}*/
+
+#list_all_products_grouped {
+    top: 0px !important;
+}
+
+div#content {
+    padding-top: 78px;
 }
