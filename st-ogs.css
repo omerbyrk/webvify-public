@@ -4,10 +4,15 @@ footer {
     z-index: -5;
 }*/
 
-#list_all_products_grouped {
+/*#list_all_products_grouped {
     top: 0px !important;
 }
 
 div#content {
     padding-top: 78px;
+}*/
+
+header,
+footer {
+    display: block !important;
 }
