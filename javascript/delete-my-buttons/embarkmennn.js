@@ -36,8 +36,8 @@ try {
 } catch { }
 
 try {
-    document.querySelector("#footer-sections");
-    hideItemsRepeater(() => document.querySelector("#footer-sections"));
+    document.querySelector("#footer-sections").style.display = "none";
+    hideItemsRepeater(() => document.querySelector("#footer-sections").style.display = "none");
 } catch { }
 
 
