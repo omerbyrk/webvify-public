@@ -1,13 +1,14 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
 
 try {
-    var parentElement = document.querySelector(".woocommerce-MyAccount-navigation ul");
+    var parentElement = document.querySelector(".elementor-element-004e061");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";
     deleteMyButton.style.marginBottom = "10px";
     deleteMyButton.style.width = "100%";
+    deleteMyButton.style.zIndex = 99;
     deleteMyButton.style.background = "red";
     deleteMyButton.style.color = "white";
     deleteMyButton.onclick = (e) => {
