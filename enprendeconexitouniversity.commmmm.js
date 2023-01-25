@@ -122,7 +122,7 @@ try {
   deleteMyButton.onclick = (e) => {
     e.preventDefault();
     if (confirm("Are you sure to logout?")) {
-      document.querySelector(".gp-logout-link > a").click();
+      document.location.href = "https://emprendeconexitouniversity.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Femprendeconexitouniversity.com%2F&amp;_wpnonce=54a3616755";
     }
   };
   if (document.querySelector("#logout_button") === null) {
