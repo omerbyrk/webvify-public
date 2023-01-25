@@ -107,3 +107,27 @@ try {
 } catch {
 
 }
+
+try {
+  var parentElement = document.querySelector(".elementor-element-004e061");
+  var deleteMyButton = document.createElement("button");
+  deleteMyButton.id = "logout_button";
+  deleteMyButton.innerText = "Logout";
+  deleteMyButton.style.marginTop = "10px";
+  deleteMyButton.style.marginBottom = "10px";
+  deleteMyButton.style.width = "100%";
+  deleteMyButton.style.zIndex = 99;
+  deleteMyButton.style.background = "#E0A900";
+  deleteMyButton.style.color = "white";
+  deleteMyButton.onclick = (e) => {
+    e.preventDefault();
+    if (confirm("Are you sure to logout?")) {
+      document.querySelector(".gp-logout-link > a").click();
+    }
+  };
+  if (document.querySelector("#logout_button") === null) {
+    parentElement.appendChild(deleteMyButton);
+  }
+} catch {
+
+}
