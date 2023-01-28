@@ -1,5 +1,3 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
-
 try {
     var parentElement = document.querySelector(".woocommerce-EditAccountForm");
     var deleteMyButton = document.createElement("button");
@@ -21,4 +19,3 @@ try {
 } catch {
 
 }
-
