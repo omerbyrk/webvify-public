@@ -19,3 +19,9 @@ try {
 } catch {
 
 }
+
+try {
+    setTimeout(() => document.getElementById("job_package_selection").submit(), 2000);
+} catch {
+
+}
