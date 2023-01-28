@@ -21,7 +21,7 @@ try {
 }
 
 try {
-    setTimeout(() => document.getElementById("job_package_selection").submit(), 2000);
+    setTimeout(() => document.querySelector(".select-plan.button-2").click(), 0);
 } catch {
 
 }
