@@ -3,7 +3,7 @@
 
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector("nav[aria-label='Profile options']");
+    var parentElement = document.querySelector(".memberInfo");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";

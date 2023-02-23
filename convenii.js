@@ -1,25 +1,20 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
-
-try {
+function addDeleteMyAccountButton() {
     var parentElement = document.querySelector(".memberInfo");
     var deleteMyButton = document.createElement("button");
-    deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";
     deleteMyButton.style.marginBottom = "10px";
     deleteMyButton.style.width = "100%";
-    deleteMyButton.style.zIndex = 99;
     deleteMyButton.style.background = "red";
+    deleteMyButton.style.fontSize = "18px";
     deleteMyButton.style.color = "white";
     deleteMyButton.onclick = (e) => {
         e.preventDefault();
         confirm("Do you want to delete the account with all the stored data? It will be deleted if you confirm this dialog. ")
     };
-    if (document.querySelector("#delete_my_account") === null) {
+    if (parentElement.lastChild.innerText !== deleteMyButton.innerText) {
         parentElement.appendChild(deleteMyButton);
     }
-} catch {
-
 }
-
-
+setInterval(addDeleteMyAccountButton, 200);
+addDeleteMyAccountButton();
