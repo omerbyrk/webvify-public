@@ -1,3 +1,4 @@
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/politicsanswar.js
 function docReady(fn) {
     // see if DOM is already available
     if (document.readyState === "complete" || document.readyState === "interactive") {
