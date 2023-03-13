@@ -1,9 +1,5 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
-
-
-
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector(".memberInfo");
+    var parentElement = document.querySelector("#navbar");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";
@@ -22,7 +18,4 @@ function addDeleteMyAccountButton() {
 }
 setInterval(addDeleteMyAccountButton, 200);
 addDeleteMyAccountButton();
-
-
-
 
