@@ -6,3 +6,7 @@ footer,
     width: 0px !important;
     height: 0px !important;
 }
+
+.smartbanner-show {
+    margin-top: 0px !important;
+}
