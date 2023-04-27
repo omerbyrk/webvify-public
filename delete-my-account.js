@@ -1,7 +1,7 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
 
 try {
-    var parentElement = document.querySelector(".memberInfo");
+    var parentElement = document.querySelector(".gorsel_var");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";

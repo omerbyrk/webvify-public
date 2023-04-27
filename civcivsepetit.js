@@ -5,7 +5,7 @@
 
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector("#mmu_panel");
+    var parentElement = document.querySelector(".profil .gorsel_var");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";
