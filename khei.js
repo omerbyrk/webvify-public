@@ -1,9 +1,11 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/kydonie.js
+
+
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
 
 
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector(".sidebar-menu");
+    var parentElement = document.querySelector("#mySidenav");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.style.marginTop = "10px";
