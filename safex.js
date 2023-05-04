@@ -1,7 +1,5 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
 
-
-
 function addDeleteMyAccountButton() {
     var parentElement = document.querySelector(".mat-sidenav .mat-mdc-nav-list");
     var deleteMyButton = document.createElement("button");
@@ -23,7 +21,3 @@ function addDeleteMyAccountButton() {
 }
 setInterval(addDeleteMyAccountButton, 200);
 addDeleteMyAccountButton();
-
-
-
-
