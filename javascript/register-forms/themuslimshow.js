@@ -1,4 +1,4 @@
-https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/javascript/register-forms/themuslimshow.js
+
 try {
     if (window.location.pathname.includes("unauthorized")) {
         var loginForm = document.getElementById("main"); // enter login form selector
