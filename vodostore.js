@@ -1,6 +1,6 @@
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/vodostore.js
 
 try {
     var parentElement = document.querySelector(".wd-my-account-sidebar");
