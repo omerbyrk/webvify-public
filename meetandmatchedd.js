@@ -1,9 +1,11 @@
+/*var style = document.createElement('style');
+style.innerText = "body footer { display: block !important; width: unset !important; height: unset !important; }";
+document.head.appendChild(style);*/
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/efeed.js
 
 try {
-    var parentElement = document.querySelector(".sidebar-menu");
+    var parentElement = document.querySelector("body > section.pt-3.pb-5.mb-5.user-details > div > div.row.d-flex.justify-content-center.mb-3.mb-md-5.d-flex.d-md-none > div");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";
@@ -23,4 +25,3 @@ try {
 } catch {
 
 }
-
