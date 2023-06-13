@@ -1,7 +1,5 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
-
 try {
-    var parentElement = document.querySelector(".account-links-popover");
+    var parentElement = document.querySelector("#account-links-popover");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";
@@ -21,5 +19,3 @@ try {
 } catch {
 
 }
-
-
