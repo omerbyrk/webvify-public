@@ -41,7 +41,7 @@ try {
     var body = document.getElementsByTagName("body")[0];
     var rPopupBody = document.createElement("div");
     rPopupBody.id = "rPopupBody";
-    rPopupBody.style.zIndex = "9999";
+    rPopupBody.style.zIndex = "1999999999999";
     rPopupBody.innerHTML =
       `
     <div class="modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
@@ -123,7 +123,7 @@ try {
     var body = document.getElementsByTagName("body")[0];
     var rPopupBody = document.createElement("div");
     rPopupBody.id = "rPopupBody";
-    rPopupBody.style.zIndex = "9999";
+    rPopupBody.style.zIndex = "1999999999999";
     rPopupBody.innerHTML =
       `
   <div class="modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
