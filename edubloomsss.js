@@ -1,11 +1,11 @@
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/edubloomsss.js
 
 
 
 try {
-    if (window.location.href == 'https://khei.edublooms.com/user/dashboard' || window.location.href == 'https://khei.edublooms.com/user/dashboard/') {
+    if (window.location.href == 'https://tehs.edublooms.com/user/dashboard' || window.location.href == 'https://tehs.edublooms.com/user/dashboard/') {
         var parentElement = document.querySelector("#mySidenav");
         var deleteMyButton = document.createElement("button");
         deleteMyButton.id = "delete_my_account";
