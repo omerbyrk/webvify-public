@@ -1,6 +1,6 @@
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/gifted.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/hardwarecorner.js
 
 
 
