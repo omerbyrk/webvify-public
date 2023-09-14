@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/laroza.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/configuration1.js
 
 try {
     var parentElement = document.querySelector(".account-links-popover");
