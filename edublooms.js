@@ -1,6 +1,6 @@
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/edublooms.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/logo.png
 
 
 
