@@ -3,7 +3,7 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/hardwarecorner.js
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector("#mainColumn");
+    var parentElement = document.querySelector("div:has(> a.logout)");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.id = "deleteMyAccount";
