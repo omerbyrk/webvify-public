@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/tikoportal_blob.js
 
 function addDeleteMyAccountButton() {
     var parentElement = document.querySelector(".mat-sidenav .mat-mdc-nav-list");
