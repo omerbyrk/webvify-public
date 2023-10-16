@@ -3,7 +3,7 @@
 
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector("#my-account-nav");
+    var parentElement = document.querySelector("form .style2");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.id = "deleteMyAccount";
