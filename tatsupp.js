@@ -3,7 +3,7 @@
 
 
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector(".account-header");
+    var parentElement = document.querySelector(".greeting_row");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.id = "deleteMyAccount";
