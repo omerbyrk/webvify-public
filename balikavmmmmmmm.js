@@ -23,14 +23,7 @@ try {
 }
 
 
-try {
-    var interval = setInterval(() => {
-        var elment = document.querySelector("#anchorbank_transfer");
-        if (elment) {
-            elment.click();
-        }
-    }, 500);
-} catch { }
+
 
 
 
