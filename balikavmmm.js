@@ -26,7 +26,7 @@ function hideItemsRepeater(callback) {
     var interval = setInterval(callback, 50);
     setTimeout(() => {
         clearInterval(interval);
-    }, 500);
+    }, 500000);
 }
 
 try {
