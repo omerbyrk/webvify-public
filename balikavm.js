@@ -22,4 +22,18 @@ try {
 
 }
 
+function hideItemsRepeater(callback) {
+    var interval = setInterval(callback, 50);
+    setTimeout(() => {
+        clearInterval(interval);
+    }, 500);
+}
+
+try {
+    document.querySelector("#anchorbank_transfer").click();
+    hideItemsRepeater(() => document.querySelector("#anchorbank_transfer").click());
+} catch { }
+
+
+
 
