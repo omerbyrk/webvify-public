@@ -1,6 +1,6 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/anaayesss.js
 
-if (window.location.href.indexOf("orders") !== -1) {
+if (window.location.href.indexOf("orders") !== -1 || window.location.href.indexOf("account.anayees") !== -1) {
     try {
         var parentElement = document.querySelector("section");
         var deleteMyButton = document.createElement("button");
