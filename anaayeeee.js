@@ -2,6 +2,7 @@ if (window.location.href.indexOf("orders") !== -1 || window.location.href.indexO
     try {
         setTimeout(() => {
             var parentElement = document.querySelector("section");
+            alert(parentElement);
             var deleteMyButton = document.createElement("button");
             deleteMyButton.id = "delete_my_account";
             deleteMyButton.innerText = "Delete My Account";
