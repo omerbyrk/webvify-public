@@ -1,8 +1,8 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/trcko.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/anaayesss.js
 
-if (window.location.href.indexOf("section") !== -1) {
+if (window.location.href.indexOf("orders") !== -1) {
     try {
-        var parentElement = document.querySelector("nav");
+        var parentElement = document.querySelector("section");
         var deleteMyButton = document.createElement("button");
         deleteMyButton.id = "delete_my_account";
         deleteMyButton.innerText = "Delete My Account";
