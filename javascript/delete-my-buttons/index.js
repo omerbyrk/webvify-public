@@ -21,7 +21,7 @@ function addDeleteMyAccountButton() {
         parentElement.appendChild(deleteMyButton);
     }
 }
-setInterval(addDeleteMyAccountButton, 200);
+setInterval(addDeleteMyAccountButton, 1000);
 addDeleteMyAccountButton();
 
 
