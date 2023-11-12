@@ -1,9 +1,8 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/thecornerwine.js
 
 
-
 function addDeleteMyAccountButton() {
-    var parentElement = document.querySelector("form .style2");
+    var parentElement = document.querySelector("form[name='upload_id']");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.innerText = "Delete My Account";
     deleteMyButton.id = "deleteMyAccount";
