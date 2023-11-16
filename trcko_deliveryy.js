@@ -1,6 +1,6 @@
 
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/trcko_delivery.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/trcko_deliveryy.js
 
 try {
     var parentElement = document.querySelector(".navigation-menu");
