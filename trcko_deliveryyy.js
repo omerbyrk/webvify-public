@@ -2,6 +2,30 @@
 
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/trcko_deliveryy.js
 
+
+
+try {
+    var parentElement = document.querySelector(".login-box-body");
+    var deleteMyButton = document.createElement("button");
+    deleteMyButton.id = "delete_my_account";
+    deleteMyButton.innerText = "Register";
+    deleteMyButton.style.marginTop = "10px";
+    deleteMyButton.style.marginBottom = "10px";
+    deleteMyButton.style.width = "100%";
+    deleteMyButton.style.zIndex = 99;
+    deleteMyButton.style.background = "#3B8EBC";
+    deleteMyButton.style.color = "white";
+    deleteMyButton.onclick = (e) => {
+        e.preventDefault();
+        location.href = "https://trcko.rs/restaurantUser/register";
+    };
+    if (document.querySelector("#delete_my_account") === null) {
+        parentElement.appendChild(deleteMyButton);
+    }
+} catch {
+
+}
+
 try {
     var parentElement = document.querySelector(".navigation-menu");
     var deleteMyButton = document.createElement("button");
