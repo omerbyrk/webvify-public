@@ -1,6 +1,6 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/configuration1.js
 
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/losleales.js
 
 try {
     if (window.location.pathname.includes("mijn-account")) {
