@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/cornerpizza.js
 
 try {
     var parentElement = document.querySelector("form[action='/fiok/updateProfile']");
