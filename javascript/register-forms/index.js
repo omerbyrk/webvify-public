@@ -2,8 +2,8 @@
 
 try {
   if (window.location.pathname.includes("login")) {
-    var loginForm = document.getElementsByName("member_login")[0]; // enter login form selector
-    var loginButton = document.getElementById("member_login-element-12"); // enter login form button to copy
+    var loginForm = document.querySelector("#ihc_login_form"); // enter login form selector
+    var loginButton = document.getElementsByName("Submit")[0]; // enter login form button to copy
 
     function injectBootstrap() {
       var link = document.createElement("link");
@@ -42,10 +42,10 @@ try {
     var body = document.getElementsByTagName("body")[0];
     var rPopupBody = document.createElement("div");
     rPopupBody.id = "rPopupBody";
-    rPopupBody.style.zIndex = "9999";
+    rPopupBody.style.zIndex = "99999999";
     rPopupBody.innerHTML =
       `
-  <div class="modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal" id="registerModal" style="z-index: 99999999;" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
   <div class="modal-dialog">
   <div class="modal-content">
   <div class="modal-header">
