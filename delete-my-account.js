@@ -1,7 +1,7 @@
 // https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/configuration1.js
 
 try {
-    var parentElement = document.querySelector(".account-links-popover");
+    var parentElement = document.querySelector(".profile-usermenu");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
     deleteMyButton.innerText = "Delete My Account";
