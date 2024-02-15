@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/configuration1.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/vitrano.js
 
 try {
     var parentElement = document.querySelector("#sidebar-menu");
