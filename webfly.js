@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/webfly.js
 
 try {
   if (window.location.pathname.includes("login")) {
