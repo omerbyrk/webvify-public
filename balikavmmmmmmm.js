@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/omerbayrak-cv/victume-1.png
 
 try {
     var parentElement = document.querySelector(".my-account");
