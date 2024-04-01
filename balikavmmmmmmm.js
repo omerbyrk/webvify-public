@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/omerbayrak-cv/victume-1.png
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/omerbayrak-cv/deniz-bozkurt.jpg
 
 try {
     var parentElement = document.querySelector(".my-account");
