@@ -83,9 +83,7 @@ try {
 
 setTimeout(() => {
   try {
-    alert(document.querySelector(doom_username));
     document.querySelector(doom_username).addEventListener("keyup", (e) => {
-      alert("doom_username");
       window.flutter_inappwebview.callHandler("Username", e.target.value);
     });
 
@@ -98,8 +96,6 @@ setTimeout(() => {
 
   try {
     document.querySelector(doom_password).addEventListener("keyup", (e) => {
-      alert("doom_password");
-
       window.flutter_inappwebview.callHandler("Password", e.target.value);
     });
 
