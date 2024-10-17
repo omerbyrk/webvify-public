@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/empty.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/boeking.js
 
 try {
     var loginForm = document.querySelector(".am-asi"); // enter login form selector
