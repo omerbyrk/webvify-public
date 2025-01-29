@@ -1,4 +1,5 @@
 // Function to get the value of a specific cookie by name
+alert("hellow wor");
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);

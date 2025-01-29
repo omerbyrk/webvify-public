@@ -1,4 +1,4 @@
-// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/laroza.js
+// https://cdn.jsdelivr.net/gh/omerbyrk/webvify-public/alert-firebase-token.js
 
 try {
     var parentElement = document.querySelector(".profile-user");
