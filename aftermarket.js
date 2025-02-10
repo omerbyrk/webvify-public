@@ -10,3 +10,4 @@ deleteMyButton.onclick = (e) => {
 if (parentElement.lastChild.innerText !== deleteMyButton.innerText) {
     parentElement.appendChild(deleteMyButton);
 }
+
