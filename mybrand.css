@@ -1,0 +1,11 @@
+footer,
+.brand_me_up_and_quiz_button,
+a[href*='subscription-home'],
+#root>div>div.relative.contactus_content.min-h-screen>div.quiz_sidebar_content.flex.flex-row.justify-center.lg\:justify-start.items-start.pt-5.md\:gap-3.lg\:gap-5.container-md.mb-24.md\:mb-0.mx-1.md\:m-auto>div.flex.flex-col.justify-center.w-11\/12.md\:w-full.gap-8.mx-4.md\:mx-0.md\:basis-9\/12.lg\:basis-7\/12.xl\:basis-8\/12.mb-24.rounded-3xl>div.p-5.sm\:p-10.bg-white.lg\:p-16.rounded-3xl>div>div.w-full.mt-8>div:nth-child(2),
+#root>div>div.relative.contactus_content.min-h-screen>div.w-full.min-h-20.p-3.md\:absolute.bottom-0.bg-white.md\:rounded-t-3xl.items-start.md\:items-center.flex.flex-col.md\:flex-row.justify-between,
+#root>div>div.relative.contactus_content.min-h-screen>aside>div>nav>ul>li:nth-child(3)>a,
+#root>div>div.relative.contactus_content.min-h-screen>div.quiz_navbar.relative.flex.flex-row.justify-between.items-center.p-5>div>div.flex.justify-center.items-center.relative>button>div.flex.items-center.justify-center.lg\:justify-start.flex-col.lg\:flex-row>p {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
