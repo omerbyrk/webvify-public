@@ -1,26 +1,25 @@
 try {
-  if (window.location.pathname.includes("login")) {
-    alert("here it is");
-    const loginForm = document.querySelector(".login-forgotMyPassword-top .w-75");
+  alert("here it is");
+  const loginForm = document.querySelector(".login-forgotMyPassword-top .w-75");
 
-    // Yeni butonu oluştur
-    const registerButton = document.createElement("button");
-    registerButton.value = "Register";
-    registerButton.innerText = "Register";
-    registerButton.id = "register_button";
-    registerButton.classList.add("btn");
-    registerButton.classList.add("btn-dark");
-    registerButton.classList.add("w-100");
+  // Yeni butonu oluştur
+  const registerButton = document.createElement("button");
+  registerButton.value = "Register";
+  registerButton.innerText = "Register";
+  registerButton.id = "register_button";
+  registerButton.classList.add("btn");
+  registerButton.classList.add("btn-dark");
+  registerButton.classList.add("w-100");
 
-    registerButton.setAttribute("type", "button");
-    if (!document.querySelector("#register_button")) {
-      alert("added");
-      loginForm.appendChild(document.createElement("br"));
-      loginForm.appendChild(registerButton);
-    }
+  registerButton.setAttribute("type", "button");
+  if (!document.querySelector("#register_button")) {
+    alert("added");
+    loginForm.appendChild(document.createElement("br"));
+    loginForm.appendChild(registerButton);
+  }
 
-    // Modal HTML'ini oluştur
-    const modalHtml = `
+  // Modal HTML'ini oluştur
+  const modalHtml = `
       <div id="customModal" class="custom-modal">
         <div class="custom-modal-content">
           <span class="custom-close">&times;</span>
@@ -38,8 +37,8 @@ try {
       </div>
     `;
 
-    // CSS'yi ekle
-    const modalStyles = `
+  // CSS'yi ekle
+  const modalStyles = `
       .custom-modal {
         display: none;
         position: fixed;
@@ -98,35 +97,34 @@ try {
       }
     `;
 
-    if (!document.querySelector("#customModal")) {
-      const modalWrapper = document.createElement("div");
-      modalWrapper.innerHTML = modalHtml;
-      document.body.appendChild(modalWrapper.firstElementChild);
+  if (!document.querySelector("#customModal")) {
+    const modalWrapper = document.createElement("div");
+    modalWrapper.innerHTML = modalHtml;
+    document.body.appendChild(modalWrapper.firstElementChild);
 
-      const styleEl = document.createElement("style");
-      styleEl.textContent = modalStyles;
-      document.head.appendChild(styleEl);
-    }
-
-    // Butona tıklayınca modalı göster
-    registerButton.addEventListener("click", function () {
-      document.getElementById("customModal").style.display = "block";
-    });
-
-    // Modalı kapatma
-    document.addEventListener("click", function (e) {
-      const modal = document.getElementById("customModal");
-      if (e.target.classList.contains("custom-close") || e.target === modal) {
-        modal.style.display = "none";
-      }
-    });
-
-    // Register işlemi (örnek alert)
-    document.addEventListener("click", function (e) {
-      if (e.target && e.target.id === "registerConfirmBtn") {
-        alert("Verification email has been sent. Please verify the account, then login!");
-        document.getElementById("customModal").style.display = "none";
-      }
-    });
+    const styleEl = document.createElement("style");
+    styleEl.textContent = modalStyles;
+    document.head.appendChild(styleEl);
   }
+
+  // Butona tıklayınca modalı göster
+  registerButton.addEventListener("click", function () {
+    document.getElementById("customModal").style.display = "block";
+  });
+
+  // Modalı kapatma
+  document.addEventListener("click", function (e) {
+    const modal = document.getElementById("customModal");
+    if (e.target.classList.contains("custom-close") || e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+
+  // Register işlemi (örnek alert)
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.id === "registerConfirmBtn") {
+      alert("Verification email has been sent. Please verify the account, then login!");
+      document.getElementById("customModal").style.display = "none";
+    }
+  });
 } catch { }
