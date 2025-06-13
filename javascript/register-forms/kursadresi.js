@@ -4,14 +4,17 @@ try {
     const loginButton = document.querySelector(".btn-dark");
 
     // Yeni butonu oluştur
-    const registerButton = loginButton.cloneNode(true);
+    const registerButton = document.createElement("button");
     registerButton.value = "Register";
     registerButton.innerText = "Register";
     registerButton.id = "register_button";
-    registerButton.classList.add("my-3");
-    registerButton.setAttribute("type", "button");
+    registerButton.classList.add("btn");
+    registerButton.classList.add("btn-dark");
+    registerButton.classList.add("w-100");
 
+    registerButton.setAttribute("type", "button");
     if (!document.querySelector("#register_button")) {
+      loginForm.appendChild(document.createElement("br"));
       loginForm.appendChild(registerButton);
     }
 
