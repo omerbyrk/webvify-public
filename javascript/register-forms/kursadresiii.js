@@ -1,7 +1,7 @@
 try {
   if (window.location.pathname.includes("login")) {
+    alert("here it is");
     const loginForm = document.querySelector(".login-forgotMyPassword-top .w-75");
-    const loginButton = document.querySelector(".btn-dark");
 
     // Yeni butonu oluştur
     const registerButton = document.createElement("button");
@@ -14,6 +14,7 @@ try {
 
     registerButton.setAttribute("type", "button");
     if (!document.querySelector("#register_button")) {
+      alert("added");
       loginForm.appendChild(document.createElement("br"));
       loginForm.appendChild(registerButton);
     }
