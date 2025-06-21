@@ -1,7 +1,6 @@
 var downloadType = "";
 
 try {
-    alert("sfsdf");
     var parentElement = document.querySelector(".nk-menu-main");
     var deleteMyButton = document.createElement("button");
     deleteMyButton.id = "delete_my_account";
