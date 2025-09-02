@@ -25,7 +25,7 @@ try {
 
 try {
     setInterval(() => {
-        var elements = document.querySelectorAll('a[faturaindirbtn]');
+        var elements = document.querySelectorAll('a[faturaindirbtns]');
         if (elements && elements.length > 0) {
             for (const element of elements) {
                 element.onclick = function (e) {
